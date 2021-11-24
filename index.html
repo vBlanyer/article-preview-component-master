@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -13,9 +14,7 @@
 </head>
 <body>
   <main class="card">
-    <header class="card__header">
-      <img src="images/drawers.jpg" alt="" class="card__thumbnail">
-    </header>
+    <img src="images/drawers.jpg" alt="" class="card__thumbnail">
     <section class="card__content">
       <h1 class="card__tittle">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
       <p class="card_paragraph">
@@ -32,10 +31,20 @@
           <p class="card__date">28 Jun 2020</p>
         </div>
       </div>
-      <div class="card__share card__share--show">
-        <img src="/images/icon-share.svg" alt="" class="card__share-icon">
+      <div class="card__share card__flex-end">
+        <div class="card__share-content card__hidden">
+          <h3>Share</h3>
+          <div class="card__share-items">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-pinterest"></i>
+          </div>
+        </div>
+        <i class="fas fa-share card__share-icon"></i>
       </div>
     </footer>
+
+    <script src="app.js"></script>
 
   </main>
 
